@@ -1,6 +1,3 @@
-/* =====================
-   CSS VARIABLES
-   ===================== */
 :root {
   --bg-base: #0f0f0f;
   --bg-surface: #161616;
@@ -20,9 +17,6 @@
   --transition: 0.22s ease;
 }
 
-/* =====================
-   BASE & RESET
-   ===================== */
 *,
 *::before,
 *::after {
@@ -44,9 +38,6 @@
   border-radius: 3px;
 }
 
-/* =====================
-   BODY
-   ===================== */
 body {
   scrollbar-width: thin;
   scrollbar-color: var(--red) var(--bg-base);
@@ -59,9 +50,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* =====================
-   ANIMATED GRID
-   ===================== */
+
 #grid-canvas {
   position: fixed;
   inset: 0;
@@ -72,9 +61,6 @@ body {
 }
 
 
-/* =====================
-   TYPOGRAPHY
-   ===================== */
 h1 {
   font-family: var(--font-display);
   font-size: clamp(13px, 2vw, 18px);
@@ -112,9 +98,6 @@ a:active {
   color: #a0000a;
 }
 
-/* =====================
-   HERO
-   ===================== */
 .hero {
   height: 100vh;
   min-height: 420px;
@@ -165,9 +148,7 @@ a:active {
   box-shadow: 0 0 22px var(--red-glow);
 }
 
-/* =====================
-   HEADER
-   ===================== */
+
 .header-container.container {
   background: var(--bg-elevated);
   border: 1px solid var(--border-bright);
@@ -193,9 +174,6 @@ a:active {
   border-radius: 1px;
 }
 
-/* =====================
-   NAV ICONS
-   ===================== */
 .nav {
   display: flex;
   align-items: center;
@@ -233,9 +211,7 @@ a:active {
   transform: scale(1.18);
 }
 
-/* =====================
-   CONTAINERS
-   ===================== */
+
 .container {
   background: var(--bg-elevated);
   border: 1px solid var(--border-bright);
@@ -255,9 +231,7 @@ a:active {
   transform: translateY(0);
 }
 
-/* =====================
-   PROFILE PANEL (no card)
-   ===================== */
+
 .profile-panel {
   display: flex;
   flex-direction: column;
@@ -362,7 +336,6 @@ a:active {
   margin: 0;
 }
 
-/* cert list */
 .cert-list {
   list-style: none;
   padding: 0;
@@ -388,9 +361,6 @@ a:active {
 }
 
 
-/* =====================
-   CAROUSEL
-   ===================== */
 .carousel {
   border-radius: var(--radius);
   overflow: hidden;
@@ -409,7 +379,6 @@ a:active {
   transition: filter 0.35s ease;
 }
 
-/* hover overlay */
 .carousel-item a {
   display: block;
   position: relative;
@@ -452,9 +421,7 @@ a:active {
   opacity: 0.75;
 }
 
-/* =====================
-   CAROUSEL HEIGHTS
-   ===================== */
+
 @media (max-width: 575.98px) {
   .carousel-inner img {
     max-height: 240px;
@@ -521,9 +488,6 @@ a:active {
   }
 }
 
-/* =====================
-   TOOLTIP
-   ===================== */
 .tooltip-inner {
   background: var(--bg-elevated);
   border: 1px solid var(--red);
@@ -540,9 +504,7 @@ a:active {
   border-bottom-color: var(--red) !important;
 }
 
-/* =====================
-   MODAL
-   ===================== */
+
 .modal-backdrop {
   background-color: rgba(0, 0, 0, 0.82);
 }
@@ -638,9 +600,7 @@ button[type="submit"]:hover {
   box-shadow: 0 0 18px var(--red-glow);
 }
 
-/* =====================
-   FOOTER
-   ===================== */
+
 .footer-container {
   background: var(--bg-elevated);
   border: 1px solid var(--border-bright);
@@ -685,9 +645,7 @@ button[type="submit"]:hover {
   z-index: 4;
 }
 
-/* =====================
-   UTILITIES
-   ===================== */
+
 .col {
   background: transparent;
   border: none;
