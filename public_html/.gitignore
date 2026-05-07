@@ -1,0 +1,17 @@
+
+Secure/
+config.js
+
+
+Thumbs.db
+desktop.ini
+
+
+.vscode/
+.idea/
+*.suo
+*.user
+
+
+*.log
+npm-debug.log*
